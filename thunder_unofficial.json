@@ -1,0 +1,213 @@
+﻿[
+    {
+        "id": "_meta",
+        "name": "What The Thunder Said - v.0.2",
+        "author": "SansCipher (featuring characters by Icibalus)",
+        "background": "https://i.redd.it/re0s2absycqx.png"
+    },
+    {
+        "id": "teacher_tba",
+        "image": "https://i.imgur.com/IWVfVQF.png",
+        "firstNightReminder": "Wake the Teacher. Show them the character token marked with the \"Seen\" reminder. Put the Teacher to sleep.",
+        "reminders": [
+            "Seen"
+        ],
+        "name": "Teacher",
+        "team": "townsfolk",
+        "ability": "You start knowing the nearest “Once per game” character (not the Demon) or that none are in play.",
+        "firstNight": 34
+    },
+    {
+        "id": "huntress_tba",
+        "image": "https://i.imgur.com/R2w5Kv9.png",
+        "firstNightReminder": "Show the Huntress the nearest Minion character, then point to your left or your right to indicate which direction it's closer in.",
+        "reminders": [
+            "Shown"
+        ],
+        "name": "Huntress",
+        "team": "townsfolk",
+        "ability": "You start knowing the nearest Minion character & whether it’s clockwise or anticlockwise from you.",
+        "firstNight": 33
+    },
+    [
+        "pixie"
+    ],
+    [
+        "snakecharmer"
+    ],
+    [
+        "fortuneteller"
+    ],
+    {
+        "id": "prankster_tba",
+        "image": "https://i.imgur.com/a7FkgF3.png",
+        "firstNightReminder": "The Prankster points to a player. Put them to sleep. If it's a Minion, mark that player with \"Pranked\", then wake that Minion and show them the \"This character affected you\" card and the Prankster token. All \"Pranked\" Minions choose a player; mark that player with \"Demon Learns Tonight.\" Finally, wake the Demon, and point to each player marked \"Demon learns tonight\" in turn, and show them the corresponding character.",
+        "otherNightReminder": "The Prankster points to a player. Put them to sleep. If it's a Minion, mark that player with \"Pranked\", then wake that Minion and show them the \"This character affected you\" card and the Prankster token. All \"Pranked\" Minions choose a player; mark that player with \"Demon Learns Tonight.\" Finally, wake the Demon, and point to each player marked \"Demon learns tonight\" in turn, and show them the corresponding character.",
+        "reminders": [
+            "Pranked",
+            "Demon learns tonight"
+        ],
+        "name": "Prankster",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: if a Minion, their ability becomes \"Each night, choose a player: the Demon learns their character.\"",
+        "firstNight": 13,
+        "otherNight": 3
+    },
+    [
+        "towncrier"
+    ],
+    [
+        "amnesiac"
+    ],
+    {
+        "id": "beachcomber_tba",
+        "image": "https://i.imgur.com/3jQrxph.png",
+        "name": "Beachcomber",
+        "team": "townsfolk",
+        "ability": "Each day, visit the Storyteller to learn 1 fact no other on-script Townsfolk could learn with their ability.",
+        "jinxes": [
+            {
+                "id": "amnesiac",
+                "reason": "The Beachcomber can learn information the Amnesiac can learn. If the Amnesiac is in play, the Beachcomber can not learn what they can with their current ability."
+            },
+            {
+                "id": "scroungertba",
+                "reason": "The Beachcomber can learn information the Scrounger can learn."
+            }
+        ]
+    },
+    [
+        "fisherman"
+    ],
+    {
+        "id": "grandmaster_tba",
+        "image": "https://i.imgur.com/OaZeMbP.png",
+        "reminders": [
+            "Used ability"
+        ],
+        "name": "Grandmaster",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, visit the Storyteller to learn your most important ally, but not why they’re important."
+    },
+    {
+        "id": "scrounger_tba",
+        "image": "https://i.imgur.com/nWasvLd.png",
+        "reminders": [
+            "Used ability"
+        ],
+        "name": "Scrounger",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, visit the Storyteller & choose a player: learn a true statement. If they’re evil, it’s false instead."
+    },
+    [
+        "magician"
+    ],
+    [
+        "atheist"
+    ],
+    [
+        "puzzlemaster"
+    ],
+    {
+        "id": "occultist_tba",
+        "image": "https://i.imgur.com/nKd6Ohb.png",
+        "firstNightReminder": "You may wake the Occultist and indicate any form of information you wish; mark them with \"Learned info\" afterwards. They will not wake again.",
+        "otherNightReminder": "You may wake the Occultist and indicate any form of information you wish; mark them with \"Learned info\" afterwards: They will not wake again.",
+        "reminders": [
+            "Learned info"
+        ],
+        "name": "Occultist",
+        "team": "outsider",
+        "ability": "You might be executed unless you are “mad” about having learned something new every day. Once per game, at night, you learn something.",
+        "firstNight": 53,
+        "otherNight": 70
+    },
+    [
+        "recluse"
+    ],
+    {
+        "id": "windviced_tba",
+        "image": "https://i.imgur.com/6MI16qK.png",
+        "firstNightReminder": "Pretend to the Wind-Viced they have the Minion ability they think they have. If it is in play, it is an Au'Wre game; do not run Minion info.",
+        "otherNightReminder": "Pretend to the Wind-Viced they have the Minion ability they think they have. ",
+        "setup": true,
+        "remindersGlobal": [
+            "Is Wind-Viced"
+        ],
+        "name": "Wind-Viced",
+        "team": "outsider",
+        "ability": "You think you are a Minion, but you are not. [The Demon is Au’Wre]",
+        "firstNight": 14,
+        "otherNight": 4
+    },
+    [
+        "lunatic"
+    ],
+    {
+        "id": "huli_jing_tba",
+        "image": "https://i.imgur.com/JC3JccN.png",
+        "firstNightReminder": "Show the Huli Jing 5 out-of-play characters: mark each with \"Seen\". Then, they pick one: mark it with \"Has ability of & might register as\". Until dusk, run that ability as if the Huli Jing was that character, and you may register the Huli Jing as that character or alignment.",
+        "otherNightReminder": "The Huli Jing points to a character on their character sheet: mark it with \"Has ability of & might register as\". Until dusk, run that ability as if the Huli Jing was that character, and you may register the Huli Jing as that character or alignment.",
+        "reminders": [
+            "Seen",
+            "Has ability of & might register as"
+        ],
+        "name": "Huli Jing",
+        "team": "minion",
+        "ability": "You start knowing 5 out-of-play characters. Each night, choose 1 of them: until dusk, gain its’ ability & you might register as it would.",
+        "firstNight": 19,
+        "otherNight": 5
+    },
+    [
+        "poisoner"
+    ],
+    [
+        "cerenovus"
+    ],
+    {
+        "id": "miasma_tba",
+        "image": "https://i.imgur.com/LPPYMzP.png",
+        "firstNightReminder": "The Miasma shakes their head no or nods their head yes. If they said yes, mark the Grimoire with the \"Townsfolk are poisoned + false info\" reminder and the Miasma with the \"No ability\" reminder, then do not wake the Miasma again.",
+        "otherNightReminder": "The Miasma shakes their head no or nods their head yes. If they said yes, mark the Grimoire with the \"Townsfolk are poisoned + false info\" reminder and the Miasma with the \"No ability\" reminder, then do not wake the Miasma again.",
+        "reminders": [
+            "Townsfolk are poisoned + false info",
+            "No ability"
+        ],
+        "name": "Miasma",
+        "team": "minion",
+        "ability": "Once per game, at night, choose that all Townsfolk are poisoned & their abilities yield false info until dusk.",
+        "firstNight": 18,
+        "otherNight": 6
+    },
+    [
+        "mezepheles"
+    ],
+    {
+        "id": "auwre_tba",
+        "image": "https://i.imgur.com/wS5cPnX.png",
+        "firstNightReminder": "Skip the Minion info step, and do not show the Au'Wre their Minions during the Demon info step. This ability applies even if the Au'Wre is somehow drunk or poisoned.",
+        "otherNightReminder": "The Au'Wre points to a number of players equal to their in-play Minions (if they don't know how many that is, signal it). For each, nod yes or no to indicate if they are a Minion, and mark them with \"Guessed\". If all Minions are marked with \"Guessed\", mark the Au'Wre with \"Found\", and announce that Good must kill evil today or win at dawn.",
+        "reminders": [
+            "Found"
+        ],
+        "setup": true,
+        "name": "Au'wre",
+        "team": "demon",
+        "ability": "Each night*, guess your Minions: learn which are correct. If all are, good learns this, and must kill evil today or lose. [Evil don’t learn each other] ",
+        "attribution": "Art credit: amaya#5374",
+        "firstNight": 2,
+        "otherNight": 26,
+        "jinxes": [
+            {
+                "id": "magician",
+                "reason": "The first time Au’Wre guesses the Magician, they learn the Magician is a Minion."
+            }
+        ]
+    },
+    [
+        "sentinel"
+    ],
+    [
+        "djinn"
+    ]
+]
